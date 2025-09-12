@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1></h1>
+        <p>A passionate web developer with expertise in modern technologies.</p>
+    </header>
+
+    <div class="profile">
+        <div class="profile-text">
+            <h2>About Me</h2>
+            <p>
+                With years of hands-on experience in <strong>web development</strong>, I excel at creating 
+        <strong>responsive, user-focused designs</strong> and writing <strong>clean, scalable code</strong>. 
+        Proficient in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, 
+        <strong>Git & GitHub</strong>, <strong>React</strong>, <strong>Redux</strong>, 
+        <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>SQL</strong>, and 
+        <strong>PostgreSQL</strong>, I also apply <strong>web security best practices</strong>, 
+        <strong>data structures</strong>, and <strong>algorithmic problem-solving</strong> to deliver 
+        robust solutions. My background in <strong>WordPress</strong> development and 
+        <strong>Adobe Creative Suite</strong> allows me to combine technical expertise with visually 
+        compelling design. I thrive on crafting <strong>tailored solutions</strong> that align with 
+        client objectives and elevate <strong>user experiences</strong>.
+            </p>
+        </div>
+        <img src="images/profile-photo.jpg" alt="Profile Photo">
+    </div>
+
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skills-section">
+            <h2>Front-end</h2>
+            <ul>
+                <li>HTML / CSS / JavaScript</li>
+                <li>React / Redux</li>
+            </ul>
+        </div>
+        <div class="skills-section">
+            <h2>Back-end</h2>
+            <ul>
+                <li>Node.js / Express.js</li>
+                <li>SQL / PostgreSQL</li>
+                <li>Web Security / REST APIs</li>
+            </ul>
+        </div>
+        <div class="skills-section">
+            <h2>DevOps</h2>
+            <ul>
+                <li>Git & GitHub</li>
+                <li>Data Structures</li>
+                <li>Algorithms</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Client Projects -->
+    <h2>Client Projects</h2>
+    <div class="projects-grid">
+        <div class="project">
+            <h3>Decosureventos.com</h3>
+            <p>A modern responsive website built for a Spanish event planning company.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://decosureventos.com/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Twotribes.com.au</h3>
+            <p>A modern responsive website built for an events company in Australia.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://www.twotribes.com.au/" target="_blank">View Project</a>
+        </div>
+    </div>
+
+    <!-- Personal Projects -->
+    <h2>Personal Projects</h2>
+    <div class="projects-grid">
+        <div class="project">
+            <h3>Jammming Web App</h3>
+            <p>Create and save custom Spotify playlists using React.</p>
+            <p><strong>Technologies:</strong> React, JavaScript, Spotify API</p>
+            <div class="project-links">
+                <a href="https://samzelmable.github.io/Jamming/" target="_blank">View Live App</a>
+                <a href="https://github.com/samzelmable/Jamming" target="_blank">View Code</a>
+            </div>
+        </div>
+        <div class="project">
+            <h3>Reddit Client App</h3>
+            <p>React & Redux app to browse and search Reddit posts and comments.</p>
+            <p><strong>Technologies:</strong> React, Redux, JavaScript</p>
+            <div class="project-links">
+                <a href="https://samzelmable.github.io/reddit-client-portfolio/" target="_blank">View Live App</a>
+                <a href="https://github.com/SamzelMable/reddit-client-portfolio" target="_blank">View Code</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Design Work (bottom) -->
+    <h2>Design Work</h2>
+    <div class="projects-grid">
+        <div class="project">
+            <h3>Logo Designs</h3>
+            <a href="#" class="open-gallery" data-gallery="logos">View Gallery</a>
+        </div>
+        <div class="project">
+            <h3>Business Cards</h3>
+            <a href="#" class="open-gallery" data-gallery="business-card">View Gallery</a>
+        </div>
+        <div class="project">
+            <h3>Leaflet Designs</h3>
+            <a href="#" class="open-gallery" data-gallery="leaflet">View Gallery</a>
+        </div>
+    </div>
+
+    <!-- Socials -->
+    <div class="socials">
+      <h2>Connect with Me</h2>
+      <a href="https://www.linkedin.com/in/samuel-marle/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/samzelmable" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:samuelrmarle@gmail.com" class="email-link"><i class="fas fa-envelope"></i> samuelrmarle@gmail.com</a>
+    </div>
+
+    <footer>
+        &copy; 2025 Samuel Marle. All rights reserved.
+    </footer>
+</div>
+
+<!-- Gallery Modal -->
+<div id="galleryModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <span class="prev-button">&#10094;</span>
+        <span class="next-button">&#10095;</span>
+        <div id="galleryBody"></div>
+    </div>
+</div>
+</body>
+</html>
