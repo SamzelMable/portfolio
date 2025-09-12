@@ -52,7 +52,7 @@ const galleryContent = {
   logos: [
     "images/Hair-in-paradise.png",
     "images/Marnoel.png",
-    "images/MarleM.jpg"
+    "images/MarleM.png"
   ],
   'business-card': [
     "images/Card1.png",
