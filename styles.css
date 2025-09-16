@@ -290,3 +290,21 @@ footer {
     font-size: 0.9rem;
     color: var(--light-gray);
 }
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column; /* Stack text and image vertically */
+        align-items: flex-start; /* Keep text left-aligned */
+    }
+
+    .profile img {
+        width: 80%;           /* Make image smaller on mobile */
+        max-width: 300px;
+        margin: 20px auto 0;  /* Center image horizontally, add top margin */
+        display: block;       /* Required for margin auto to work */
+    }
+
+    .profile-text {
+        max-width: 100%;       /* Take full width */
+    }
+}
